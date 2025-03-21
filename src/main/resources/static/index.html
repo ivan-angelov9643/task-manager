@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Task Manager</h1>
+
+<div class="container">
+    <div class="task-list">
+        <h2>Task List</h2>
+        <table id="task-list">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Completion</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="task-form">
+        <h2>Create Task</h2>
+        <input type="text" id="task-title" placeholder="Title">
+        <input type="text" id="task-desc" placeholder="Description">
+        <button class="normal-button" onclick="createTask()">Add Task</button>
+
+        <h2>Find Task by ID</h2>
+        <input type="text" id="task-id" placeholder="Enter Task ID">
+        <button class="normal-button" onclick="getTaskById()">Find Task</button>
+        <p id="task-details"></p>
+
+        <h2>Update Task</h2>
+        <input type="text" id="update-id" placeholder="Task ID">
+        <input type="text" id="update-title" placeholder="New Title">
+        <input type="text" id="update-desc" placeholder="New Description">
+        <button class="normal-button" onclick="updateTask()">Update Task</button>
+    </div>
+</div>
+
+<script src="taskManager.js"></script>
+</body>
+</html>

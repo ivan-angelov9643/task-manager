@@ -1,0 +1,139 @@
+h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.task-list {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-form {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.task-list th, .task-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.task-list th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.task-list td {
+    background-color: #fff;
+}
+
+.task-list td, .task-list th {
+    border-right: 1px solid #ddd;
+}
+
+.task-list th:last-child, .task-list td:last-child {
+    border-right: none;
+}
+
+.task-form input, .task-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.task-form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background-color: #45a049;
+}
+
+.task-details p {
+    margin: 10px 0;
+}
+
+.property {
+    font-weight: bold;
+}
+
+td button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; for background color and scale */
+}
+
+td button:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
+
+td button:active {
+    background-color: #b71c1c;
+    transform: scale(1);
+}
+
+td button {
+    margin: 5px 0;
+}
+
+button.normal-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.normal-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button.normal-button:active {
+    background-color: #388e3c;
+    transform: scale(1);
+}
+
